@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Creative Portfolio & Blog</title>
+  <link href="./output.css" rel="stylesheet">
+</head>
+<body class="bg-gradient-to-b from-gray-900 via-gray-800 to-gray-900 text-white font-sans leading-relaxed">
+
+  <!-- Header with Animated Navbar -->
+  <header class="fixed w-full z-10 backdrop-filter backdrop-blur-lg bg-opacity-30 p-4 flex justify-between items-center">
+    <h1 class="text-3xl font-bold text-teal-300">My Creative Space</h1>
+    <nav class="space-x-6 text-lg font-semibold">
+      <a href="#home" class="hover:text-teal-300 transition duration-300">Home</a>
+      <a href="#projects" class="hover:text-teal-300 transition duration-300">Projects</a>
+      <a href="#blog" class="hover:text-teal-300 transition duration-300">Blog</a>
+      <a href="#contact" class="hover:text-teal-300 transition duration-300">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section with Parallax Background -->
+  <section id="home" class="relative h-screen bg-cover bg-center" style="background-image: url(https://img.freepik.com/premium-photo/modern-dark-home-interior-background-wall-mock-up-3d-render_1048363-10675.jpg?semt=ais_hybrid);">
+    <div class="absolute inset-0 bg-black bg-opacity-60 flex items-center justify-center text-center">
+      <div class="animate-fadeIn">
+        <h2 class="text-5xl md:text-7xl font-extrabold text-teal-400 tracking-wider">Hello, I’m Hamed Daly</h2>
+        <p class="text-2xl mt-4 md:text-3xl text-gray-300">A developer who loves to design and create.</p>
+        <a href="#blog" class="inline-block mt-8 px-8 py-3 bg-teal-400 text-black font-bold rounded-lg transform hover:scale-105 transition duration-300">
+          View My Work
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section with Animated Cards -->
+  <section id="skills" class="py-20 bg-gradient-to-r from-teal-900 to-gray-800 text-center">
+    <div class="max-w-5xl mx-auto">
+      <h3 class="text-4xl font-bold text-teal-300 mb-12">My Skills</h3>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+        <div class="p-6 bg-gray-900 rounded-lg shadow-lg hover:shadow-teal-400 transform hover:scale-105 transition duration-300">
+          <h4 class="text-2xl font-semibold">HTML</h4>
+          <p class="mt-4 text-gray-400">Experienced in creating clean, semantic HTML markup.</p>
+        </div>
+        <div class="p-6 bg-gray-900 rounded-lg shadow-lg hover:shadow-teal-400 transform hover:scale-105 transition duration-300">
+          <h4 class="text-2xl font-semibold">BootStrap CSS</h4>
+          <p class="mt-4 text-gray-400">Proficient in dynamic interactions and modern frameworks.</p>
+        </div>
+        <div class="p-6 bg-gray-900 rounded-lg shadow-lg hover:shadow-teal-400 transform hover:scale-105 transition duration-300">
+          <h4 class="text-2xl font-semibold">CSS Tailwind</h4>
+          <p class="mt-4 text-gray-400">Skilled in responsive design with CSS and Tailwind CSS.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section with Overlapping Cards -->
+  <section id="projects" class="py-20 bg-gray-800">
+    <div class="inset-x-0 top-0 transform -translate-y-1/2 w-full max-w-6xl mx-auto flex flex-col md:flex-row space-y-8 md:space-y-0 md:space-x-8">
+      <div class="bg-gray-900 p-6 rounded-lg shadow-lg hover:shadow-teal-400 transform hover:translate-y-2 hover:scale-105 transition duration-300">
+        <img src="https://i.ytimg.com/vi/npLbQoH_ngk/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDuFBU6QYNqnEC8ORs-aLAELdU5Qw" alt="Project Image" class="rounded-t-lg">
+        <h4 class="text-xl font-semibold mt-4 text-teal-300">Project 1</h4>
+        <p class="mt-2 text-gray-400">Building my first HTML Website..</p>
+      </div>
+      <div class="bg-gray-900 p-6 rounded-lg shadow-lg hover:shadow-teal-400 transform hover:translate-y-2 hover:scale-105 transition duration-300">
+        <img src="https://strapi.dhiwise.com/uploads/Example_of_Internal_CSS_for_a_Background_Image_dbe31a6ab7.webp" alt="Project Image" class="rounded-t-lg">
+        <h4 class="text-xl font-semibold mt-4 text-teal-300">Project 2</h4>
+        <p class="mt-2 text-gray-400">Making websites with BootStrap CSS.</p>
+      </div>
+      <div class="bg-gray-900 p-6 rounded-lg shadow-lg hover:shadow-teal-400 transform hover:translate-y-2 hover:scale-105 transition duration-300">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBpEZaKbK_y_rU0JX2WfbON72kWpKtKUGUBw&s" alt="Project Image" class="rounded-t-lg">
+        <h4 class="text-xl font-semibold mt-4 text-teal-300">Project 3</h4>
+        <p class="mt-2 text-gray-400">Creating unique websites with Tailwind CSS.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Blog Section with Hover Effects -->
+  <section id="blog" class="py-20 bg-gray-900 text-center">
+    <div class="max-w-5xl mx-auto">
+      <h3 class="text-4xl font-bold text-teal-300 mb-12">Featured Blog Posts</h3>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+        <div class="bg-gray-800 rounded-lg overflow-hidden transform hover:scale-105 transition duration-300">
+          <img src="https://media.licdn.com/dms/image/D4D12AQF7kCRm7x476w/article-cover_image-shrink_720_1280/0/1693071155543?e=2147483647&v=beta&t=wIZ4IhAnIq4o5hp91zCRrypCUj8bFl6NpdIrS2K5rd8" alt="Blog Image" class="w-full h-48 object-cover">
+          <div class="p-6">
+            <h4 class="text-xl font-semibold text-teal-300">Blog Post 1</h4>
+            <p class="mt-2 text-gray-400">Exploring the latest trends in the tech world.</p>
+          </div>
+        </div>
+        <div class="bg-gray-800 rounded-lg overflow-hidden transform hover:scale-105 transition duration-300">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdPQu1zOZ4FPFSpEDeqijl_6DlFuU1o0uZyg&s" alt="Blog Image" class="w-full h-48 object-cover">
+          <div class="p-6">
+            <h4 class="text-xl font-semibold text-teal-300">Blog Post 2</h4>
+            <p class="mt-2 text-gray-400">Tips and tricks for coding like a pro.</p>
+          </div>
+        </div>
+        <div class="bg-gray-800 rounded-lg overflow-hidden transform hover:scale-105 transition duration-300">
+          <img src="https://admin.tops-int.com/storage/blog/icons/65875.jpg" alt="Blog Image" class="w-full h-48 object-cover">
+          <div class="p-6">
+            <h4 class="text-xl font-semibold text-teal-300">Blog Post 3</h4>
+            <p class="mt-2 text-gray-400">Why UI/UX design matters more than ever.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Form with Floating Animation -->
+  <section id="contact" class="py-20 bg-gradient-to-r from-gray-800 to-gray-900">
+    <div class="max-w-lg mx-auto text-center">
+      <h3 class="text-4xl font-bold text-teal-300 mb-8">Contact Me</h3>
+      <form class="space-y-6">
+        <input type="text" placeholder="Name" class="w-full px-4 py-3 border border-gray-700 rounded-lg focus:ring-2 focus:ring-teal-400">
+        <input type="email" placeholder="Email" class="w-full px-4 py-3 border border-gray-700 rounded-lg focus:ring-2 focus:ring-teal-400">
+        <textarea placeholder="Message" class="w-full px-4 py-3 border border-gray-700 rounded-lg focus:ring-2 focus:ring-teal-400"></textarea>
+        <button type="submit" class="px-6 py-3 bg-teal-400 text-black font-bold rounded-lg hover:bg-teal-300 transition duration-300">
+          Send Message
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-blue-600 text-white p-4">
+    <div class="container mx-auto flex justify-between items-center">
+        <p>&copy; 2024 Hamed Daly. All rights reserved.</p>
+        <div class="flex space-x-4">
+            <a href="https://twitter.com" target="_blank" class="hover:text-gray-200">Twitter
+                <img src="https://i.pinimg.com/736x/ee/5e/5f/ee5e5f58afcfb20500d8f8f1489ea191.jpg" width="40"
+                    height="40" alt="This is twitter">
+            </a>
+
+            <a href="https://linkedin.com" target="_blank" class="hover:text-gray-200">LinkedIn
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoJ9_vWWlqK9M-lPZGNIl6UQTJhAMR78eZpQ&s"
+                    width="30" height="20" alt="">
+            </a>
+            <a href="https://github.com" target="_blank" class="hover:text-gray-200">GitHub
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQX8MX5pYTelSZbfJikPOy5UYy6BQGoBnhqVw&s"
+                    width="40" height="40" alt="">
+            </a>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
